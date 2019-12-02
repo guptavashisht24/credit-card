@@ -1,3 +1,6 @@
+
+
+
 .App {
   text-align: center;
 }
@@ -19,4 +22,30 @@
 
 .App-link {
   color: #09d3ac;
+}
+.full{
+  position: relative;
+  margin-top : 250px;
+}
+.card{
+  position: absolute;
+  background-image: url("./assets/8.jpeg");
+  background-repeat: no-repeat;
+  width: 430px;
+  height : 270px;
+  background-color: bisque;
+  border-radius: 10px;
+  top: -140px;
+  left : 50%;
+  transform: translateX(-50%)
+}
+.form{
+  margin: 0 auto;
+  height: 560px;
+  width: 560px;
+  background-color: white;
+  border-radius: 10px;
+}
+body{
+  background-color: lightblue;
 }
