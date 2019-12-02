@@ -37,7 +37,10 @@
   border-radius: 10px;
   top: -140px;
   left : 50%;
-  transform: translateX(-50%)
+  transform: translateX(-50%);
+  display: flex;
+  flex-wrap: wrap;
+  color: white;
 }
 .form{
   margin: 0 auto;
@@ -48,4 +51,11 @@
 }
 body{
   background-color: lightblue;
+  box-sizing: border-box;
+}
+.logo-row{
+  
+}
+.w100{
+  width: 100%;
 }
