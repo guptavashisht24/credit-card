@@ -53,9 +53,19 @@ body{
   background-color: lightblue;
   box-sizing: border-box;
 }
-.logo-row{
-  
-}
+
 .w100{
   width: 100%;
+}
+.w70{
+  width: 70px;
+}
+
+.h55{
+  height : 55px;
+}
+
+.logo-row{
+  display: flex;
+  justify-content: space-between;
 }
