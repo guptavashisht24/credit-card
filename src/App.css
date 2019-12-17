@@ -1,5 +1,5 @@
 
-
+@import url("https://fonts.googleapis.com/css?family=Source+Code+Pro:400,500,600,700|Source+Sans+Pro:400,600,700&display=swap");
 
 .App {
   text-align: center;
@@ -29,7 +29,7 @@
 }
 .card{
   position: absolute;
-  background-image: url("./assets/8.jpeg");
+  background-image: url("./assets/2.jpeg");
   background-repeat: no-repeat;
   width: 430px;
   height : 270px;
@@ -41,6 +41,8 @@
   display: flex;
   flex-wrap: wrap;
   color: white;
+  padding: 20px 20px 20px 20px;
+  align-items: center;
 }
 .form{
   margin: 0 auto;
@@ -68,4 +70,34 @@ body{
 .logo-row{
   display: flex;
   justify-content: space-between;
+}
+
+input[type="text"]
+{
+    background: transparent;
+}
+
+
+.info-row{
+  display: flex;
+  justify-content: space-between;
+}
+.num-row{
+  display: flex;
+  justify-content: space-between;
+  font-family: "Source Code Pro", monospace;
+}
+
+.label{
+  font-family: "Source Sans Pro", sans-serif;
+  font-size : 14px;
+  font-weight: 800;
+  color : gray;
+  text-align: left;
+}
+
+.info{
+  font-family: "Source Code Pro", monospace;
+  font-size : 20px;
+  font-weight: 800;
 }
